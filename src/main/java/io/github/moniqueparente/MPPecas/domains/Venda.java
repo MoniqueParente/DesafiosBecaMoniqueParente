@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
@@ -26,14 +28,33 @@ public class Venda {
     private Cliente cliente;
 
     @OneToMany
-    private List<ItemVenda> itemVendaLista;
+    private List<ItemVenda> items;
 
-    String valorTotal(){
+    private LocalDateTime dataVenda = LocalDateTime.now();
 
-        double precototal = 0;
-        for(ItemVenda itemVenda : this.itemVendaLista){
-            precototal += itemVenda.getValor();
+    private Double valorVenda;
 
-        } return String.format("TOTAL: %.2f", precototal);
+    public Double getValorVenda() {
+        double valor = 0;
+
+        for(ItemVenda itemVenda : this.items){
+            valor += itemVenda.getValorTotal();
+        }
+
+        this.valorVenda = valor;
+
+        return this.valorVenda;
     }
+
+
+//    public String getvalorTotal(){
+//        double precototal = 0;
+//
+//        for(ItemVenda itemVenda : this.items){
+//            precototal += itemVenda.getValor();
+//
+//        }
+//
+//        return String.format("TOTAL: %.2f", precototal);
+//    }
 }

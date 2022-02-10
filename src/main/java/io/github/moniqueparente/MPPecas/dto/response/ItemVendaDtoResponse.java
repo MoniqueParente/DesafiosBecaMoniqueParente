@@ -8,4 +8,5 @@ public class ItemVendaDtoResponse {
     private Double valor;
     private Integer quantidade;
     private ProdutoDtoResponse produto;
+    private Double valorTotal;
 }
