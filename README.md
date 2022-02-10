@@ -11,4 +11,22 @@ ________________________________________________________________________________
 ⭕ Implementado o OpenAPI na Spring Rest.
 
 ⭕ Implementado ResponseEntity nos retornos das chamadas.
+
+Linguagem de Programação: JAVA.
 ______________________________________________________________________________________________________________________________________________________________________________
+
+⚜ Criação das classes controllers (CRUD).
+
+Classes implementadas:
+✔Venda
+✔Item Venda
+✔Vendedor
+✔Cliente
+✔Produto
+
+Para cada classe criar houve a utilização de CRUD:
+Post: @PostMapping
+Patch: @PatchMapping("/{id}")
+Delete: @DeleteMapping("/{id}")
+Get (lista): @GetMapping()
+Get (Id): @GetMapping("/{id}")
