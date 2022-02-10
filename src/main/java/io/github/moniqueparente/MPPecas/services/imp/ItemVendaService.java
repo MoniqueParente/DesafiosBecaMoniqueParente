@@ -26,7 +26,7 @@ public class ItemVendaService implements ItemVendaServiceInterface {
     private final MapperItemVendaAtualizar mapperItemVendaAtualizar;
 
 
-    public ItemVendaDtoResponse criar (@RequestBody @Valid ItemVendaDtoRequest itemVendaDtoRequest){
+    public ItemVendaDtoResponse criar(@RequestBody @Valid ItemVendaDtoRequest itemVendaDtoRequest){
 
         ItemVenda itemVenda = mapperItemVendaRequestToItemVenda.toModel(itemVendaDtoRequest);
 
@@ -63,10 +63,16 @@ public class ItemVendaService implements ItemVendaServiceInterface {
 
     }
 
-    public ItemVendaDtoResponse obter (Integer id) {
+    public ItemVendaDtoResponse obter(Integer id) {
         ItemVenda itemVenda = itemVendaRepository.findById(id).get();
 
         return mapperItemVendaToItemVendaResponse.toResponse(itemVenda);
+    }
+
+    public ItemVenda obterEntity(Integer id) {
+        ItemVenda itemVenda = itemVendaRepository.findById(id).get();
+
+        return itemVenda;
     }
 
 }

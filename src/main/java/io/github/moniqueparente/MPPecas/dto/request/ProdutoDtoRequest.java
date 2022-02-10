@@ -21,4 +21,5 @@ public class ProdutoDtoRequest {
     @NotBlank(message = "Por favor, preencha este campo.")
     @Size(min = 4, message = "Digite mais do q 4 letras")
     private String marca;
+
 }

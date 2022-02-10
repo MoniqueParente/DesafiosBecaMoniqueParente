@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RequiredArgsConstructor
@@ -20,13 +21,13 @@ public class VendaController {
     private VendaService vendaService;
 
     @PostMapping
-    public ResponseEntity<VendaDtoResponse> criar(@RequestBody VendaDtoRequest vendaDtoRequest){
+    public ResponseEntity<VendaDtoResponse> criar(@RequestBody @Valid VendaDtoRequest vendaDtoRequest){
 
         return ResponseEntity.created(null).body(vendaService.criar(vendaDtoRequest));
     }
 
     @PatchMapping("/{id}")
-    public ResponseEntity<VendaDtoResponse> atualizar(@RequestBody VendaDtoRequest vendaDtoRequest,
+    public ResponseEntity<VendaDtoResponse> atualizar(@RequestBody @Valid VendaDtoRequest vendaDtoRequest,
                                                       @PathVariable Integer id){
 
         return ResponseEntity.ok(vendaService.atualizar(vendaDtoRequest,id));
