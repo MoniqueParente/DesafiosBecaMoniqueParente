@@ -57,19 +57,19 @@ Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadas
 
 ✔Produto
 
-Para cada classe existe:
+💠Para cada classe existe:
 
-Definição dos atributos.
+* Definição dos atributos.
 
-toString()
+* toString()
 
-Construtor vazio
+* Construtor vazio
 
-Construtor passando os atributos
+* Construtor passando os atributos
 
-Getters e Setters
+* Getters e Setters
 
-Equals() e HashCode()
+* Equals() e HashCode()
 
 
 
