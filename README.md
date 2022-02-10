@@ -7,21 +7,22 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________________________________
 
 
-🔴 Pensamentos Iniciais de Estruturação.
+⭕ Pensamentos Iniciais de Estruturação.
 
-🔴 Resumo da aplicação.
+⭕ Resumo da aplicação.
 
-🔴 Modelagem e criação das entidades.
+⭕ Modelagem e criação das entidades.
 
 ______________________________________________________________________________________________________________________________________________________________________________
 
-🖊 # Pensamentos Iniciais de Estruturação. 
+⚜ Pensamentos Iniciais de Estruturação. 
 
 Para introduzir alguns pensamentos nesse tópico devemos planejar algumas estratégias que de início podem parecer imaturas porém vão se tornar mais concretas, ágeis e compactas para evitar erros de execução.  
 
 Algumas dicas para estruturação de um sistema, pensar de forma objetiva, escolher um substantivo adequado para definir uma entidade, utilizar de raciocínio lógico inspirado em programação orienta objeto e por fim verificar a normalização. Existem diversos ambientes nos quais podem ser utilizados para realizar um Modelo de Entidade Relacional (MER), alguns exemplos: BrModelo, Draw.oi, entre outros.
 
-🖊 # Resumo da Aplicação.
+⚜ Resumo da Aplicação.
+
 
 Plano de Negócios.
 
@@ -38,7 +39,7 @@ As funções da aplicação consistem em cadastrar uma venda relacionada com os 
 
 Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadastros nos domínios, vendedor, cliente, item de venda e produto que constarão no sistema.
 
-🖊 # Modelagem e criação das entidades.
+⚜ Modelagem e criação das entidades.
 
 ![MODELOCONCEITUALREFATORADO.PNG](MODELOCONCEITUALREFATORADO.PNG)
  
