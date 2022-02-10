@@ -19,9 +19,13 @@ ________________________________________________________________________________
 
 Classes implementadas:
 ✔Venda
+
 ✔Item Venda
+
 ✔Vendedor
+
 ✔Cliente
+
 ✔Produto
 
 Para cada classe criar houve a utilização de CRUD:
