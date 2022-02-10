@@ -46,15 +46,4 @@ public class Venda {
         return this.valorVenda;
     }
 
-
-//    public String getvalorTotal(){
-//        double precototal = 0;
-//
-//        for(ItemVenda itemVenda : this.items){
-//            precototal += itemVenda.getValor();
-//
-//        }
-//
-//        return String.format("TOTAL: %.2f", precototal);
-//    }
 }

@@ -14,10 +14,8 @@ public class ItemVenda {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    //@Positive(message = "{valor.not.valid}")
     private Double valor;
 
-    //@Min(value = 1, message = "{quantidade.not.valid}")
     private Integer quantidade;
 
     private Double valorTotal;
