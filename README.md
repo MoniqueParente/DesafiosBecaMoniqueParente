@@ -71,7 +71,7 @@ Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadas
 
 * Equals() e HashCode()
 
-
+IDE: InteliJ
 
 
 
