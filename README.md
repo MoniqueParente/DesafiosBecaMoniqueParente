@@ -5,38 +5,23 @@ ________________________________________________________________________________
 
 ![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
 ______________________________________________________________________________________________________________________________________________________________________________
-# Sumário
 
-* Seja Bem-Vindo(a)!!
 
-1️⃣	Pensamentos Iniciais de Estruturação.
+🔴 Pensamentos Iniciais de Estruturação.
 
-2️⃣ Resumo da aplicação.
+🔴 Resumo da aplicação.
 
-3️⃣ Ferramentas.
-
-4️⃣ Linguagem de Programação
-
-5️⃣ Frameworks.
-
-6️⃣ Endpoints.
-
-7️⃣ Tratamento de Erros.
-
-Curso recomendado: 
-
-- [Curso Cod3r - Udemy](https://nttdatalearn.udemy.com/course/fundamentos-de-programacao-com-java/learn/lecture/5740792#announcements)<br/>
+🔴 Modelagem e criação das entidades.
 
 ______________________________________________________________________________________________________________________________________________________________________________
-# Documentação
 
-✅1️⃣ Pensamentos Iniciais de Estruturação. 
+🖊 # Pensamentos Iniciais de Estruturação. 
 
 Para introduzir alguns pensamentos nesse tópico devemos planejar algumas estratégias que de início podem parecer imaturas porém vão se tornar mais concretas, ágeis e compactas para evitar erros de execução.  
 
 Algumas dicas para estruturação de um sistema, pensar de forma objetiva, escolher um substantivo adequado para definir uma entidade, utilizar de raciocínio lógico inspirado em programação orienta objeto e por fim verificar a normalização. Existem diversos ambientes nos quais podem ser utilizados para realizar um Modelo de Entidade Relacional (MER), alguns exemplos: BrModelo, Draw.oi, entre outros.
 
-✅2️⃣ Resumo da Aplicação.
+🖊 # Resumo da Aplicação.
 
 Plano de Negócios.
 
@@ -45,17 +30,25 @@ A aplicação MP Peças tem como objetivo proporcionar a venda de produto que in
 O produto final MP Peças consiste em uma aplicação para vendas.
 As funções da aplicação consistem em cadastrar uma venda relacionada com os cadastros relacionados aos atributos das classes vendedor, cliente ,item venda e produto.   
 
-![MODELOCONCEITUALREFATORADO.PNG](MODELOCONCEITUALREFATORADO.PNG)
- 
- IDE utilizada na modelagem: Draw.io.
-
-Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadastros nos domínios, vendedor, cliente, item de venda e produto que constarão no sistema.
-
   •	Premissas: 
 - Aplicação será desenvolvida de Segunda-Feira às Sextas-Feiras em horário comercial.
 
  •	Restrições:
 - Tratamento de erros relacionados ao desenvolvimento e versionamento.
+
+Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadastros nos domínios, vendedor, cliente, item de venda e produto que constarão no sistema.
+
+🖊 # Modelagem e criação das entidades.
+
+![MODELOCONCEITUALREFATORADO.PNG](MODELOCONCEITUALREFATORADO.PNG)
+ 
+ IDE utilizada na modelagem: Draw.io.
+
+
+
+
+
+
 
 ✅3️⃣	Ferramentas.
 * Draw.io - Aplicar UML
