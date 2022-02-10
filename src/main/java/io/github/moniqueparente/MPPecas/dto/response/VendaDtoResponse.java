@@ -12,9 +12,9 @@ public class VendaDtoResponse {
 
     private VendedorDtoResponse vendedor;
     private ClienteDtoResponse cliente;
-    private List<ItemVenda> itemVendaLista;
+    private List<ItemVendaDtoResponse> items;
+
+    private Double valorVenda;
 
     private LocalDateTime dataVenda = LocalDateTime.now();
-
-
 }

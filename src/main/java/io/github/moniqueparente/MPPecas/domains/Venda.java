@@ -28,16 +28,33 @@ public class Venda {
     private Cliente cliente;
 
     @OneToMany
-    private List<ItemVenda> itemVendaLista;
+    private List<ItemVenda> items;
 
     private LocalDateTime dataVenda = LocalDateTime.now();
 
-    String valorTotal(){
+    private Double valorVenda;
 
-        double precototal = 0;
-        for(ItemVenda itemVenda : this.itemVendaLista){
-            precototal += itemVenda.getValor();
+    public Double getValorVenda() {
+        double valor = 0;
 
-        } return String.format("TOTAL: %.2f", precototal);
+        for(ItemVenda itemVenda : this.items){
+            valor += itemVenda.getValorTotal();
+        }
+
+        this.valorVenda = valor;
+
+        return this.valorVenda;
     }
+
+
+//    public String getvalorTotal(){
+//        double precototal = 0;
+//
+//        for(ItemVenda itemVenda : this.items){
+//            precototal += itemVenda.getValor();
+//
+//        }
+//
+//        return String.format("TOTAL: %.2f", precototal);
+//    }
 }

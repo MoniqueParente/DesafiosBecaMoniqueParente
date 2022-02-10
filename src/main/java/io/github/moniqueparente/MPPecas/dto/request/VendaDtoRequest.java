@@ -20,7 +20,7 @@ public class VendaDtoRequest {
 
     private VendedorDtoRequest vendedor;
     private ClienteDtoRequest cliente;
-    private List<ItemVenda> itemVendaLista;
+    private List<ItemVendaDtoRequest> items;
 
     @PastOrPresent(message = "Data acima do dia atual não é aceita!")
     private LocalDateTime dataVenda = LocalDateTime.now();

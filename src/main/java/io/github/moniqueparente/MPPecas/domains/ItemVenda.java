@@ -8,8 +8,6 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 public class ItemVenda {
 
     @Id
@@ -22,7 +20,12 @@ public class ItemVenda {
     //@Min(value = 1, message = "{quantidade.not.valid}")
     private Integer quantidade;
 
+    private Double valorTotal;
+
     @OneToOne
     private Produto produto;
 
+    public Double getValorTotal() {
+        return valor * quantidade;
+    }
 }
