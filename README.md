@@ -45,7 +45,7 @@ A aplicação MP Peças tem como objetivo proporcionar a venda de produto que in
 O produto final MP Peças consiste em uma aplicação para vendas.
 As funções da aplicação consistem em cadastrar uma venda relacionada com os cadastros relacionados aos atributos das classes vendedor, cliente ,item venda e produto.   
 
-![DIAGRAMACONCEITUALOFICIAL.PNG](DIAGRAMACONCEITUALOFICIAL.PNG)
+![MODELOCONCEITUALREFATORADO.PNG](MODELOCONCEITUALREFATORADO.PNG)
  
  IDE utilizada na modelagem: Draw.io.
 
