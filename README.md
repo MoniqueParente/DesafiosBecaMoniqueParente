@@ -45,6 +45,32 @@ Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadas
  
  IDE utilizada na modelagem: Draw.io.
 
+⚜ Classes implementadas:
+
+✔Venda 
+
+✔Item Venda
+
+✔Vendedor
+
+✔Cliente
+
+✔Produto
+
+Para cada classe existe:
+
+Definição dos atributos.
+
+toString()
+
+Construtor vazio
+
+Construtor passando os atributos
+
+Getters e Setters
+
+Equals() e HashCode()
+
 
 
 
