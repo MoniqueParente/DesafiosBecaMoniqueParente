@@ -40,7 +40,7 @@ spring.datasource.username=sa
 spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
-Implementando camada service.
+⚜ Implementando camada service.
 
 Apartir do código implementado no IntelliJ, os nomes das classes, atributos e os dados deven ser inseridos no Postman, utilizando JSON.
 
