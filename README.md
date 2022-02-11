@@ -14,19 +14,21 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________________________________________________________________________
 
-Implementar as interfaces com os métodos utilizados
+⚜ Implementar as interfaces com os métodos utilizados
 
-public interface /Nome para interface/ </Nome ou letra para identificar/> {
+Exemplo:
 
-/Nome ou letra para identificar/ criar(/Nome ou letra para identificar/ objeto);
-/Nome ou letra para identificar/ atualizar(/Nome ou letra para identificar/ objeto ,Integer id);
-void deletar(Integer id);
-List</Nome ou letra para identificar/> listar() ;
-/Nome ou letra para identificar/ obter(Integer id);
+public interface MPPecasInterface <T> {
+
+    T criar (T objeto);
+    T atualizar (T objeto ,Integer id);
+    void deletar (Integer id);
+    List<T> listar() ;
+    T obter (Integer id);
 
 }
 
-Criação de services funcionais.
+⚜ Criação de services funcionais.
 
 Para identificar uma classe service é necessário a assinatura: @Service
 
@@ -45,7 +47,7 @@ public class ClienteService implements MPPecasInterface <Cliente> {
  ‼ Obs: A criação de services consiste em ter a implementação CRUD.
 
 
-Integração da camada controller.
+⚜ Integração da camada controller.
 
 Para identificar uma classe controller é necessário a assinatura: @RestController
  
