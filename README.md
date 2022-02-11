@@ -6,7 +6,8 @@ ________________________________________________________________________________
 ![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
 ______________________________________________________________________________________________________________________________________________________________________________
 
-###
-
+⭕ Criação dos repositorois.
+⭕ configuração Bando de dados H2.
+⭕ Implementando camada service.
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
