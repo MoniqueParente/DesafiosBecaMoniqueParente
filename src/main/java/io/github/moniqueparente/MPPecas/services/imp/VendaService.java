@@ -1,5 +1,6 @@
 package io.github.moniqueparente.MPPecas.services.imp;
 
+import io.github.moniqueparente.MPPecas.domains.ItemVenda;
 import io.github.moniqueparente.MPPecas.domains.Venda;
 import io.github.moniqueparente.MPPecas.dto.request.VendaDtoRequest;
 import io.github.moniqueparente.MPPecas.dto.response.VendaDtoResponse;
@@ -23,8 +24,21 @@ public class VendaService implements VendaServiceInterface {
     private final MapperVendaToVendaResponse mapperVendaToVendaResponse;
     private final MapperVendaAtualizar mapperVendaAtualizar;
 
+    private final ItemVendaService itemVendaService;
+
     public VendaDtoResponse criar(VendaDtoRequest vendaDtoRequest) {
         Venda venda = mapperVendaRequestToVenda.toModel(vendaDtoRequest);
+
+        List<ItemVenda> listaItems = venda
+                .getItems()
+                .stream()
+                .map(itemVenda -> {
+                    itemVenda = itemVendaService.obterEntity(itemVenda.getId());
+                    return itemVenda;
+                })
+                .collect(Collectors.toList());
+
+        venda.setItems(listaItems);
 
         vendaRepository.save(venda);
 
