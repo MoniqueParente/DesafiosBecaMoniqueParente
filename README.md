@@ -18,12 +18,6 @@ Existem 2 tipos de DTOS:
 
 Exemplo de Request DTO: 
 
-@Data  //equivalente a @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode.
-
-@NoArgsConstructor  //gerador do construtor vazio.
-
-@AllArgsConstructor //gerador de todos os construtores necessários.
-
 public class ClienteDtoRequest {
 
     private Integer id;
@@ -31,8 +25,6 @@ public class ClienteDtoRequest {
     private String cpf;}
 
 Exemplo de Response DTO:
-
-@Data
 
 public class ClienteDtoResponse{
 
