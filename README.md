@@ -9,7 +9,7 @@ ________________________________________________________________________________
 
 ![MPPECASLOGO.png](MPPECASLOGO.png)
 
-<th style="text-align:center;"><img src="MPPECASLOGO.png" alt="Image"></th>
+<th style="text-align:center;"><img src="MPPECASLOGO.png" alt="MPPECASLOGO.png"></th>
 
 ______________________________________________________________________________________________________________________________________________________________________________
 # Sumário
