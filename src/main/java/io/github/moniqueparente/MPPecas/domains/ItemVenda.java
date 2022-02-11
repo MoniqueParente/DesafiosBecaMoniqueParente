@@ -23,6 +23,9 @@ public class ItemVenda {
     @OneToOne
     private Produto produto;
 
+    @ManyToOne
+    private Venda venda;
+
     public Double getValorTotal() {
         return valor * quantidade;
     }
