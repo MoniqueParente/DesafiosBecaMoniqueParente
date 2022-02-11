@@ -24,7 +24,7 @@ public interface MPPecasInterface <T> {
     T atualizar (T objeto ,Integer id);
     void deletar (Integer id);
     List<T> listar() ;
-    T obter (Integer id);             }
+    T obter (Integer id);       }
 
 ⚜ Criação de services funcionais.
 
