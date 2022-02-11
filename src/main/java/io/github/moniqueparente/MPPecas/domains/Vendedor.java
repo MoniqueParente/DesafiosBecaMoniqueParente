@@ -11,8 +11,6 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 public class Vendedor {
 
     @Id

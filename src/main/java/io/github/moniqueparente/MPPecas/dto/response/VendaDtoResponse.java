@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 public class VendaDtoResponse {
 
+    private Integer id;
     private VendedorDtoResponse vendedor;
     private ClienteDtoResponse cliente;
     private List<ItemVendaDtoResponse> items;

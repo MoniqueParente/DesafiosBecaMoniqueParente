@@ -5,6 +5,7 @@ import lombok.Data;
 @Data
 public class ItemVendaDtoResponse {
 
+    private Integer id;
     private Double valor;
     private Integer quantidade;
     private ProdutoDtoResponse produto;
