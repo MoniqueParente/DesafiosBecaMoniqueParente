@@ -28,7 +28,6 @@ Criação de services funcionais.
 Para identificar uma classe service é necessário a assinatura: @Service
 
 Exemplo:
-
 public class ClienteService implements MPPecasInterface <Cliente> {
 
     public Cliente criar(Cliente cliente) {
@@ -45,15 +44,13 @@ Integração da camada controller.
 Para identificar uma classe controller é necessário a assinatura: @RestController
  
 Exemplo:
-  
-@RestController
-    
+@RestController   
 @RequestMapping("/cliente")
 public class ClienteController {
 
     @Autowired
     private ClienteService clienteService;
-
+    
     @PostMapping
     public ResponseEntity<Cliente> criar(@RequestBody Cliente cliente) {
         Cliente clienteCriado = clienteService.criar(cliente);
