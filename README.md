@@ -46,26 +46,13 @@ Para evitar futuros bugs é interssante que em sua aplicação exista 3 tipos de
 
 * Mapper da classe para a classe response
 
-Dependência no pom.xml que deve ser adicionada:
-
-<path>
-   <groupId>org.mapstruct</groupId>
-   <artifactId>mapstruct-processor</artifactId>
-   <version>1.4.2.Final</version>
-</path>
-
+Dependência Mapper deve ser adicionada ao pom.xml.
 
 ⚜ Implementar Lombok.
 
 O Lombok é um Framework criado sob licença MIT, podendo ser usado livremente em qualquer projeto Java. Seu principal objetivo é diminuir a verbosidade das classes de mapeamento JPA, DTOs e Beans.
 
-Lombok deve ser definido no pom.xml, código da dependência:
-
-<path>
-   <groupId>org.projectlombok</groupId>
-   <artifactId>lombok</artifactId>
-   <version>1.18.22</version>
-</path>
+Dependência Lombok deve ser adicionada ao pom.xml.
 
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
