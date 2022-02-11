@@ -27,6 +27,7 @@ public class ItemVenda {
     private Venda venda;
 
     public Double getValorTotal() {
+
         return valor * quantidade;
     }
 }
