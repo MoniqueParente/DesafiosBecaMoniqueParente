@@ -10,6 +10,17 @@ ________________________________________________________________________________
 
 ⚜ Criado um docker-compose.yml.
 
+MySQL código:
+
+version: "3.9"  # optional since v1.27.0
+services:
+  mysqlbeca:
+    image: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+
 ⚜ Criado um container no Docker.
 
 ⚜ API integrada ao base de dados.
