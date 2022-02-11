@@ -53,9 +53,7 @@ Mais informações:
 
 * Postman tem como função testar e desenvolver APIs.
 
-* JSON é o acrônimo de JavaScript Object Notation.
-
-Isso significa que usa-se uma formatação de texto que é semelhante à sintaxe de declaração de um objeto na linguagem JavaScript.
+* JSON é o acrônimo de JavaScript Object Notation, isso significa que usa-se uma formatação de texto que é semelhante à sintaxe de declaração de um objeto na linguagem JavaScript.
 
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
