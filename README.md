@@ -34,10 +34,19 @@ Exemplo na classe service:
         return clienteDtoResponse;
     }
 
-
-
-
 ⚜ Adicionar Mapper.
+
+ORM (Object Relational Mapper) é uma técnica de mapeamento objeto relacional que permite fazer uma relação dos objetos com os dados que os mesmos representam.
+
+Para evitar futuros bugs é interssante que em sua aplicação exista 3 tipos de mapper:
+
+* MapperAtualização
+
+* Mapper da classe request DTO para classe
+
+* Mapper da classe para a classe response
+
+
 ⚜ Implementar Lombok.
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
