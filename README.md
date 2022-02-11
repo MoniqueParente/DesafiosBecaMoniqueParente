@@ -50,6 +50,7 @@ Get (Id): @GetMapping("/{id}")
 | GET `/vendedor`     | Busca por ID um vendedor ao sistema.     | 
  
  Exemplo de uma requisição (JSON):
+ 
  POST `/venda`  
  ```json
  {
