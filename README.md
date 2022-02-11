@@ -65,3 +65,7 @@ Conclusão, o usuário deste site poderá cadastrar uma venda através dos cadas
 * Getters e Setters
 
 * Equals() e HashCode()
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
