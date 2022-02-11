@@ -53,5 +53,14 @@ ________________________________________________________________________________
 📌 Linguagem de Programação: 
 <div style="display: inline_block">
 <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  
+✅ Frameworks.
+
+* Spring Boot. 
+* JPA.
+* Lambdas.
+* JDBC.
+* JSON.
+* Swagger.
 
 ______________________________________________________________________________________________________________________________________________________________________________
