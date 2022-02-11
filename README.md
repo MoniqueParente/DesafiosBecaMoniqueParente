@@ -16,22 +16,31 @@ Existem 2 tipos de DTOS:
 
 * Response
 
-Exemplo: 
+Exemplo de Request DTO: 
 
 @Data  //equivalente a @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode.
 
-@NoArgsConstructor //gerador do construtor vazio.
+@NoArgsConstructor  //gerador do construtor vazio.
 
 @AllArgsConstructor //gerador de todos os construtores necessários.
-public class ClienteDto {
+
+public class ClienteDtoRequest {
+
+    private Integer id;
+    private String nome;
+    private String cpf;
+}
+
+Exemplo de Response DTO:
+
+@Data
+public class ClienteDtoResponse{
+
     private String nome;
     private String cpf;
 
-    public ClienteDto(Cliente cliente) {
-        this.nome = cliente.getNome();
-        this.cpf = cliente.getCpf();
-    }
 }
+
 
 ⚜ Relacionamento entre tabelas. 
 
