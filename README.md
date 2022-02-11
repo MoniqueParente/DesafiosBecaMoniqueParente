@@ -6,9 +6,3 @@ ________________________________________________________________________________
 ![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
 ______________________________________________________________________________________________________________________________________________________________________________
 
- ✅ Tratamento de Erros.
- 
- Tipos tratados:
- `/MethodArgumentNotValidException`
- `/UnexpectedTypeException`
- `/HttpMessageNotReadableException`
