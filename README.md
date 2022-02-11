@@ -6,8 +6,6 @@ ________________________________________________________________________________
 ⭕ Implementado o OpenAPI na Spring Rest.
 
 ⭕ Implementado ResponseEntity nos retornos das chamadas.
-
-Linguagem de Programação: JAVA.
 ______________________________________________________________________________________________________________________________________________________________________________
 
 ⚜ Criação das classes e classes controllers (CRUD).
@@ -51,7 +49,7 @@ Get (Id): @GetMapping("/{id}")
 | GET `/cliente`      | Busca por ID um cliente ao sistema.      |
 | GET `/vendedor`     | Busca por ID um vendedor ao sistema.     | 
  
- Exemplo de uma requisição:
+ Exemplo de uma requisição (JSON):
  POST `/venda`  
  ```json
  {
