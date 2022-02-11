@@ -6,7 +6,7 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________________________________________________________________________
 
-![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
+####
 ______________________________________________________________________________________________________________________________________________________________________________
 # Sumário
 
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ✨ [Desafio 8](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio8/README.md)<br/>
 
-
+![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
 
 Curso recomendado: 
 
