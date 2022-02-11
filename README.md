@@ -28,18 +28,16 @@ public class ClienteDtoRequest {
 
     private Integer id;
     private String nome;
-    private String cpf;
-}
+    private String cpf;}
 
 Exemplo de Response DTO:
 
 @Data
+
 public class ClienteDtoResponse{
 
     private String nome;
-    private String cpf;
-
-}
+    private String cpf;}
 
 
 ⚜ Relacionamento entre tabelas. 
