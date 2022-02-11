@@ -9,7 +9,9 @@ ________________________________________________________________________________
 
 ![MPPECASLOGO.png](MPPECASLOGO.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 
-<img src="https://i.stack.imgur.com/MPPECASLOGO.png"> 
+<img src="https://mylogo.tailorbrands.com/MPPECASLOGO.png"> 
+
+https://mylogo.tailorbrands.com/MPPECASLOGO.png
 
 ______________________________________________________________________________________________________________________________________________________________________________
 # Sumário
