@@ -54,28 +54,29 @@ Get (Id): @GetMapping("/{id}")
  POST `/venda`  
  ```json
  {
-    "id": 1,
-    "vendedor" : {
-        "id" : 1,
-        "nome" : "Eliezer"
+    "vendedor": {
+        "id": 1,
+        "nome": "Caio Santana"
     },
-    "cliente" : {
-        "id" : 1,
-        "nome" : "Monique",
-        "cpf" : "777.777.777-77"
+    "cliente": {
+        "id": 1,
+        "nome": "Pedro Amaral Ducati",
+        "cpf": "39718436030"
     },
-    "itemVendaList": [
+    "items": [
         {
-            "id" : 1,
-            "valor" : 200.00,
-            "quantidade" : 1,
-            "produto" : {
-                "id" : 1,
-                "nome" : "Teclado",
-                "marca" : "Redragon"
+            "id": 7,
+            "valor": 200.0,
+            "quantidade": 5,
+            "produto": {
+                "id": 4,
+                "nome": "Teclado",
+                "marca": "Redragon"
+            },
+            "valorTotal": 1000.0
         }
-       }
-    ]
+    ],
+    "dataVenda": "2022-02-08T16:21:31.514Z"
 }
 ``` 
 ______________________________________________________________________________________________________________________________________________________________________________
