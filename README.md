@@ -18,11 +18,13 @@ Exemplo:
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 }
 
-!! Obs: Respositório deve ser criado para cada uma das entidades que constam na modelagem.
+!! Obs: Respositório deve ser criado para cada uma das entidades que constam na modelagem do [Desafio 1](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/features-modificacao/README.md)<br/>.
 
 ⚜ Configuração Bando de dados H2 Database.
 
-H2 Database é um banco de dados relacional escrito em Java, link: http://localhost:8080/h2-console/
+H2 Database é um banco de dados relacional escrito em Java, link: 
+
+http://localhost:8080/h2-console/
 
 Para conectar sua aplicação ao H2 Database: 
 
