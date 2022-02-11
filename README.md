@@ -29,6 +29,7 @@ Para identificar uma classe service é necessário a assinatura: @Service
 
 Exemplo:
 
+@Service
 public class ClienteService implements MPPecasInterface <Cliente> {
 
     public Cliente criar(Cliente cliente) {
@@ -36,8 +37,9 @@ public class ClienteService implements MPPecasInterface <Cliente> {
 
         return cliente;
     }
+
   
- A criação de services consiste em ter a implementação CRUD.
+ ‼ Obs: A criação de services consiste em ter a implementação CRUD.
 
 
 Integração da camada controller.
@@ -60,4 +62,4 @@ public class ClienteController {
         return ResponseEntity.created(null).body(clienteCriado);
     }
 
- A criação de controller consiste em ter a implementação CRUD.
+ ‼ Obs: A criação de controller consiste em ter a implementação CRUD.
