@@ -46,6 +46,12 @@ Para evitar futuros bugs é interssante que em sua aplicação exista 3 tipos de
 
 * Mapper da classe para a classe response
 
+Dependência no pom.xml que deve ser adicionada:
+
+<groupId>org.mapstruct</groupId>
+<artifactId>mapstruct-processor</artifactId>
+<version>1.4.2.Final</version>
+
 
 ⚜ Implementar Lombok.
 
