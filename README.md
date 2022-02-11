@@ -44,7 +44,7 @@ ________________________________________________________________________________
 
 📌 H2 - Banco de Dados.
 
-📌 IDE: InteliJ
+📌 IDE: IntelliJ IDEA Ultimate
 
 📌 Linguagem de Programação: 
 <div style="display: inline_block">
