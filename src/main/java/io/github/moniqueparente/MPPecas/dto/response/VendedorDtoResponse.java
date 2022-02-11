@@ -5,5 +5,6 @@ import lombok.Data;
 @Data
 public class VendedorDtoResponse {
 
+    private Integer id;
     private String nome;
 }
