@@ -44,7 +44,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 Apartir do código implementado no IntelliJ, os nomes das classes, atributos e os dados deven ser inseridos no Postman, utilizando JSON.
 
-Após os dados inseridos e compilados em JSON no Postman ,os dados vão ser visualizados no H2 Database.
+Após os dados inseridos e compilados em JSON no Postman ,os dados vão ser visualizados no H2 Database, em suas respectivas classes.
 
 ‼ Obs: As dados vinculados às entidade no H2 Database não vão ser salvos, caso reiniciei a aplicação no IntelliJ,
 será necessrário encerrir todos os dados novamente.
