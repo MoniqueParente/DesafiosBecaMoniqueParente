@@ -25,7 +25,6 @@ public interface MPPecasInterface <T> {
     void deletar (Integer id);
     List<T> listar() ;
     T obter (Integer id);
-
 }
 
 ⚜ Criação de services funcionais.
@@ -41,7 +40,6 @@ public class ClienteService implements MPPecasInterface <Cliente> {
         cliente.setId(1);
 
         return cliente;
-    
     }
 
   
@@ -66,7 +64,6 @@ public class ClienteController {
         Cliente clienteCriado = clienteService.criar(cliente);
 
         return ResponseEntity.created(null).body(clienteCriado);
-    
     }
 
  ‼ Obs: A criação de controller consiste em ter a implementação CRUD.
