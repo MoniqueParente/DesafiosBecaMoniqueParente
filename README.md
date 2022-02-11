@@ -32,9 +32,7 @@ ________________________________________________________________________________
 
 ✨ [Desafio 8](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio8/README.md)<br/>
 
-<p align="center">
 ![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
-</p> 
 
 Curso recomendado: 
 
