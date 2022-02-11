@@ -26,15 +26,6 @@ Delete: @DeleteMapping("/{id}")
 Get (lista): @GetMapping()
 
 Get (Id): @GetMapping("/{id}")
- 
-✅5️⃣ Frameworks.
-
-* Spring Boot. 
-* JPA.
-* Lambdas.
-* JDBC.
-* JSON.
-* Swagger.
 
 ✅6️⃣ Endpoints.
  
