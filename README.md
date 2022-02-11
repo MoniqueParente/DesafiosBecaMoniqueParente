@@ -51,9 +51,9 @@ será necessrário encerrir todos os dados novamente.
 
 Mais informações:
 
-*Postman tem como função testar e desenvolver APIs.
+* Postman tem como função testar e desenvolver APIs.
 
-*JSON é o acrônimo de JavaScript Object Notation.
+* JSON é o acrônimo de JavaScript Object Notation.
 
 Isso significa que usa-se uma formatação de texto que é semelhante à sintaxe de declaração de um objeto na linguagem JavaScript.
 
