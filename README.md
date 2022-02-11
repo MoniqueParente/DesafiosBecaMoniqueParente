@@ -12,21 +12,21 @@ ________________________________________________________________________________
 
 * Seja Bem-Vindo(a)!!
 
-✨ [Desafio 1](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/features-modificacao/README.md)<br/>
+✨ [Desafio 1](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio1/README.md)<br/>
 
-✨ [Desafio 2](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio2/README.md)<br/>
+✨ [Desafio 2](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio2/README.md)<br/>
 
-✨ [Desafio 3](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio3/README.md)<br/>
+✨ [Desafio 3](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio3/README.md)<br/>
 
-✨ [Desafio 4](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio4/README.md)<br/>
+✨ [Desafio 4](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio4/README.md)<br/>
 
-✨ [Desafio 5](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio5/README.md)<br/>
+✨ [Desafio 5](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio5/README.md)<br/>
 
-✨ [Desafio 6](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio6/README.md)<br/>
+✨ [Desafio 6](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio6/README.md)<br/>
 
 ✨ [Desafio 7](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio7/README.md)<br/>
 
-✨ [Desafio 8](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio8/README.md)<br/>
+✨ [Desafio 8](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio8/README.md)<br/>
 
 ![Monique GitHub stats](https://github-readme-stats.vercel.app/api?username=MoniqueParente&show_icons=true&theme=radical)
 
