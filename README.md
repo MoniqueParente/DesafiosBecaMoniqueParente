@@ -24,7 +24,7 @@ ________________________________________________________________________________
 
 ✨ [Desafio 6](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio6/README.md)<br/>
 
-✨ [Desafio 7](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/tree/Desafio7)<br/>
+✨ [Desafio 7](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/Desafio7/README.md)<br/>
 
 ✨ [Desafio 8](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/feature-desafio8/README.md)<br/>
 
