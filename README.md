@@ -48,9 +48,11 @@ Para evitar futuros bugs é interssante que em sua aplicação exista 3 tipos de
 
 Dependência no pom.xml que deve ser adicionada:
 
-<groupId>org.mapstruct</groupId>
-<artifactId>mapstruct-processor</artifactId>
-<version>1.4.2.Final</version>
+<path>
+   <groupId>org.mapstruct</groupId>
+   <artifactId>mapstruct-processor</artifactId>
+   <version>1.4.2.Final</version>
+</path>
 
 
 ⚜ Implementar Lombok.
@@ -59,9 +61,11 @@ O Lombok é um Framework criado sob licença MIT, podendo ser usado livremente e
 
 Lombok deve ser definido no pom.xml, código da dependência:
 
-<groupId>org.projectlombok</groupId>
-<artifactId>lombok</artifactId>
-<version>1.18.22</version> //a versão pode variar
+<path>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <version>1.18.22</version>
+</path>
 
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
