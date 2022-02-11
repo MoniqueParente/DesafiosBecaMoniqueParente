@@ -27,19 +27,25 @@ Criação de services funcionais.
 
 Para identificar uma classe service é necessário a assinatura: @Service
 
-public class /Nome da classe service/ implements /nome da interface/ <Nome da Classe>{
-  
-      public Cliente criar(Cliente cliente) {
+Exemplo:
+
+public class ClienteService implements MPPecasInterface <Cliente> {
+
+    public Cliente criar(Cliente cliente) {
         cliente.setId(1);
 
         return cliente;
     }
-}
-
+  
+ A criação de services consiste em ter a implementação CRUD.
 
 
 Integração da camada controller.
 
+Para identificar uma classe controller é necessário a assinatura: @RestController
+ 
+Exemplo:
+  
 @RestController
 @RequestMapping("/cliente")
 public class ClienteController {
@@ -54,4 +60,4 @@ public class ClienteController {
         return ResponseEntity.created(null).body(clienteCriado);
     }
 
-
+ A criação de controller consiste em ter a implementação CRUD.
