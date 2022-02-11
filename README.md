@@ -47,6 +47,7 @@ Para identificar uma classe controller é necessário a assinatura: @RestControl
 Exemplo:
   
 @RestController
+    
 @RequestMapping("/cliente")
 public class ClienteController {
 
