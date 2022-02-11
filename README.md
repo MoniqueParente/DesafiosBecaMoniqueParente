@@ -15,6 +15,7 @@ As validações são feitas nas classes controller e services coma assinatura: @
 Exemplo na classe controller:
 
    @PostMapping
+   
     public ResponseEntity<ClienteDtoResponse> criar(@RequestBody @Valid ClienteDtoRequest clienteDtoRequest){
 
         return ResponseEntity.created(null).body(clienteService.criar(clienteDtoRequest));
@@ -23,6 +24,7 @@ Exemplo na classe controller:
 Exemplo na classe service: 
   
   public ClienteDtoResponse criar(@Valid ClienteDtoRequest clienteDtoRequest) {
+  
         Cliente cliente = mapperClienteRequestToCliente.toModel(clienteDtoRequest);
 
         clienteRepository.save(cliente);
