@@ -26,17 +26,6 @@ Delete: @DeleteMapping("/{id}")
 Get (lista): @GetMapping()
 
 Get (Id): @GetMapping("/{id}")
-
-✅3️⃣	Ferramentas.
-* Draw.io - Aplicar UML
-* Intelij - Desenvolvimento Java.
-* Postman - Simulação de Interface.
-* H2 - Banco de Dados.
-
-✅4️⃣ Linguage de Programação.
-
-<div style="display: inline_block">
- <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
  
 ✅5️⃣ Frameworks.
 
