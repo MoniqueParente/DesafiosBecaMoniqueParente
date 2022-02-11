@@ -46,7 +46,7 @@ Apartir do código implementado no IntelliJ, os nomes das classes, atributos e o
 
 Após os dados inseridos e compilados em JSON no Postman ,os dados vão ser visualizados no H2 Database.
 
-Obs: As dados vinculados às entidade no H2 Database não vão ser salvos, caso reiniciei a aplicação no IntelliJ,
+‼ Obs: As dados vinculados às entidade no H2 Database não vão ser salvos, caso reiniciei a aplicação no IntelliJ,
 será necessrário encerrir todos os dados novamente.
 
 Mais informações:
