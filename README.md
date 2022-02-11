@@ -40,10 +40,11 @@ Tipos de relacionamento entre tabelas:
 
 Esses relacionamentos são implementados de acordo com a modelagem no [Desafio 1](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/features-modificacao/README.md)<br/>
 
+Exemplo:
 
+@OneToOne
+private Produto produto;
 
-
-⚜ Relacionamento entre tabelas.
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
 
