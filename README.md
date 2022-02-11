@@ -48,5 +48,14 @@ Para evitar futuros bugs é interssante que em sua aplicação exista 3 tipos de
 
 
 ⚜ Implementar Lombok.
+
+O Lombok é um Framework criado sob licença MIT, podendo ser usado livremente em qualquer projeto Java. Seu principal objetivo é diminuir a verbosidade das classes de mapeamento JPA, DTOs e Beans.
+
+Lombok deve ser definido no pom.xml, código da dependência:
+
+<groupId>org.projectlombok</groupId>
+<artifactId>lombok</artifactId>
+<version>1.18.22</version> //a versão pode variar
+
 ______________________________________________________________________________________________________________________________________________________________________________
 ✨ [Menu](https://github.com/MoniqueParente/DesafiosBecaMoniqueParente/blob/main/README.md)<br/>
