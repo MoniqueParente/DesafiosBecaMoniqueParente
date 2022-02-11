@@ -50,10 +50,8 @@ Exemplo:
 @RestController 
     
 @RequestMapping("/cliente")
+    
 public class ClienteController {
-
-    @Autowired
-    private ClienteService clienteService;
     
     @PostMapping
     public ResponseEntity<Cliente> criar(@RequestBody Cliente cliente) {
