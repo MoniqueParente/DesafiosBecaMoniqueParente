@@ -20,7 +20,7 @@ Get (lista): @GetMapping()
 
 Get (Id): @GetMapping("/{id}")
 
-✅6️⃣ Endpoints.
+✅ Endpoints.
  
 |Requisições          | Descrição                                |
 |---------------------|------------------------------------------|
