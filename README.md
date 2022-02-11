@@ -84,13 +84,3 @@ Get (Id): @GetMapping("/{id}")
     ]
 }
 ``` 
- 
- ✅7️⃣ Tratamento de Erros.
- 
- Tipos tratados:
- `/MethodArgumentNotValidException`
- `/UnexpectedTypeException`
- `/HttpMessageNotReadableException`
- 
- 
- 
